@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 /* eslint-disable @next/next/no-img-element */
 export default function Hero(): JSX.Element {
   return (
@@ -18,8 +20,17 @@ export default function Hero(): JSX.Element {
           Fornecemos nossos produtos para: atelier de joias, joalherias,
           relojoarias, indústrias e escolas de joias.
         </p>
-        <button className="btn btn-lg mr-6">Contato</button>
-        <button className="btn btn-lg mr-6">Catálogo</button>
+        <Link href="/#">
+          <a>
+            <button className="btn btn-lg mr-6 mb-4">Contato</button>
+          </a>
+        </Link>
+
+        <Link href="/#catalog">
+          <a>
+            <button className="btn btn-lg mr-6 mb-4">Catálogo</button>
+          </a>
+        </Link>
       </div>
       <div>
         <img width={500} src="/images/maquina.png" alt="Máquinas Monteiro" />
