@@ -20,7 +20,7 @@ export default function Hero(): JSX.Element {
           Fornecemos nossos produtos para: atelier de joias, joalherias,
           relojoarias, indústrias e escolas de joias.
         </p>
-        <Link href="/#">
+        <Link href="/#contact">
           <a>
             <button className="btn btn-lg mr-6 mb-4">Contato</button>
           </a>

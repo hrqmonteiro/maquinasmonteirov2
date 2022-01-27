@@ -39,6 +39,12 @@ export default function Navbar(): JSX.Element {
                 >
                   Catálogo
                 </a>
+                <a
+                  className="btn btn-ghost btn-sm rounded-btn"
+                  href="/#contact"
+                >
+                  Contato
+                </a>
               </div>
             </div>
             <div className="navbar-end flex justify-end">

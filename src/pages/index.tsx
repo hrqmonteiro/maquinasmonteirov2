@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { Catalog, Hero, History, Team } from '../components'
+import { Catalog, Contact, Hero, History, Team } from '../components'
 
 const Home: NextPage = () => {
   return (
@@ -34,6 +34,11 @@ const Home: NextPage = () => {
         <section id="catalog">
           <div className="container mx-auto px-8">
             <Catalog />
+          </div>
+        </section>
+        <section id="contact">
+          <div className="container mx-auto px-8">
+            <Contact />
           </div>
         </section>
       </main>

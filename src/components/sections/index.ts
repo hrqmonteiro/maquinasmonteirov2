@@ -1,4 +1,5 @@
 export { default as Catalog } from './Catalog'
+export { default as Contact } from './Contact'
 export { default as Hero } from './Hero'
 export { default as History } from './History'
 export { default as Team } from './Team'
